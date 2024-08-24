@@ -1,0 +1,8 @@
+akhq:
+  ui-options:
+    topic-data:
+      sort: Newest
+  connections:
+    local:
+      properties:
+        bootstrap.servers: "localhost:9092"
