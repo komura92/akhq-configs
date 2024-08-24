@@ -4,4 +4,8 @@ This project contains AKHQ configurations for multiple use-cases. I hope you wil
 
 ## HTTP basic
 
-Detailed description can be found [here](https://damiankumor.blogspot.com/2024/08/basic-akhq-running-with-docker-http.html).
+Detailed description can be found [in this article](https://damiankumor.blogspot.com/2024/08/basic-akhq-running-with-docker-http.html).
+
+## HTTP with Keycloak login
+
+Detailed description can be found [in this article](https://damiankumor.blogspot.com/2024/08/akhq-login-with-keycloak.html).
