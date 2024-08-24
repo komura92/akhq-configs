@@ -1,0 +1,32 @@
+micronaut:
+  security:
+    enabled: true
+    oauth2:
+      clients:
+        keycloak:
+          client-id: <akhq keycloak client id>
+          client-secret: <akhq keycloak client secret>
+          openid:
+            issuer: http://localhost:8080/realms/my-realm
+    token:
+      jwt:
+        signatures:
+          secret:
+            generator:
+              secret: <generate your own>
+
+akhq:
+  ui-options:
+    topic-data:
+      sort: Newest
+  connections:
+    local:
+      properties:
+        bootstrap.servers: "localhost:9092"
+  security:
+    oidc:
+      enabled: true
+      providers:
+        keycloak:
+          label: "Login with Keycloak"
+          default-group: reader
